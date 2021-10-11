@@ -21,7 +21,7 @@
             var y = event.accelerationIncludingGravity.y;
             var z = event.accelerationIncludingGravity.z;
 
-            if(x > 50.00){
+            if(Math.abs(x) > 30.00){
               cnt ++;
             }
 
